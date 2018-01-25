@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_feed">FeedFire!</string>
+
+    <string name="text_dashboard">Dashboard</string>
+    <string name="text_feed">Feed</string>
+    <string name="text_subscription">Subscription</string>
+
+</resources>

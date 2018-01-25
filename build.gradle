@@ -1,0 +1,43 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.compileSdkVer = 27
+    ext.minSdkVer = 21
+    ext.targetSdkVer = 27
+
+    ext.versionCode = 1
+    ext.versionName = "v1"
+    ext.versionNameSuffix = "alpha"
+
+    ext.kotlinStdVer = '1.2.21'
+    ext.kotlinCoroutinesVer = '0.22'
+
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinStdVer"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+ext {
+    supportLibraryVer = '27.0.2'
+    okhttpVer = '3.9.1'
+    retrofit2Ver = '2.3.0'
+    daggerVer = '2.14.1'
+    javaxAnnotationVer = '1.0'
+    moxyVer = '1.5.3'
+}
